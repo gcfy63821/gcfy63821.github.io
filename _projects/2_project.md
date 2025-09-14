@@ -19,6 +19,7 @@ This project focuses on classifying images of 10 popular food categories using a
 ## Dataset
 
 The project uses a comprehensive dataset of 10,000 images across 10 food categories:
+
 - Apple pie
 - Chicken wings
 - Dumplings
@@ -27,4 +28,3 @@ The project uses a comprehensive dataset of 10,000 images across 10 food categor
 ## Results
 
 The implementation demonstrates effective food classification with improved performance through data augmentation and optimized training strategies. The Grad-CAM integration provides valuable insights into the model's decision-making process.
-
