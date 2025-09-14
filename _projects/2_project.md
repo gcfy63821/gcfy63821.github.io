@@ -19,6 +19,7 @@ This project focuses on classifying images of 10 popular food categories using a
 ## Dataset
 
 The project uses a comprehensive dataset of 10,000 images across 10 food categories:
+
 - Apple pie
 - Chicken wings
 - Dumplings
