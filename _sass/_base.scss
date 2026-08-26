@@ -777,8 +777,8 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bold;
         }
 
         > span.more-authors {
@@ -790,6 +790,13 @@ footer.sticky-bottom {
             color: var(--global-text-color);
             border-bottom: 1px dashed var(--global-text-color);
           }
+        }
+      }
+
+      .periodical {
+        .pub-highlight {
+          color: #b908c5;
+          font-weight: bold;
         }
       }
 
