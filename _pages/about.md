@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Tsinghua University</a>. Undergraduate
+subtitle: <a href='#'>Tsinghua University</a>. Ph.D. Student
 
 profile:
   align: right
@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a senior undergraduate student in Department of Automation at Tsinghua University. My research interests lie in robotics manipulation, human-robot interaction, and the intersection of control theory and machine learning. I was fortunate to be advised by Prof. [Xiang Li](https://sites.google.com/view/homepageoflixiang/home) and Prof. [Mingguo Zhao](https://www.au.tsinghua.edu.cn/info/1081/3199.htm) during my undergraduate studies, and I joined the Stanford Vision and Learning Lab (SVL) as a summer research intern in 2025. In the future, I will pursue my Ph.D. at the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, under the supervision of Prof. [Mengdi Xu](https://www.mengdixu.me/).
+I am a first-year Ph.D. student at the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, advised by Prof. [Mengdi Xu](https://www.mengdixu.me/). My research interests lie in dexterous manipulation and robot interaction. I received my bachelor's degree from the Department of Automation at Tsinghua University, where I was fortunate to be advised by Prof. [Xiang Li](https://sites.google.com/view/homepageoflixiang/home) and Prof. [Mingguo Zhao](https://www.au.tsinghua.edu.cn/info/1081/3199.htm), and I joined the Stanford Vision and Learning Lab (SVL) as a summer research intern in 2025.
