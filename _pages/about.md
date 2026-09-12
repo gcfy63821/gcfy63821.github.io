@@ -6,7 +6,7 @@ subtitle: <a href='#'>Tsinghua University</a>. Ph.D. Student
 
 profile:
   align: right
-  image: crq_1.jpg
+  image: crq_2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Feel free to reach out!</p>
