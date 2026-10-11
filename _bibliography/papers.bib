@@ -3,8 +3,39 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{cao2026weave,
+  selected={true},
+  summary={Learning coordinated whole-body and dexterous hand control from human-object interactions.},
+  title={WEAVE: Learning Whole-Body Dexterous Loco-Manipulation from Human–Object Interactions},
+  author={Cao, Liu and Wu, Xingze and Cui, Jingzhi and Xu, Botian and Pei, Mingzhi and Chen, Ruoqu and Xu, Mengdi},
+  abstract={WEAVE learns coordinated humanoid locomotion and dexterous manipulation from captured human-object interactions. Contact-aware retargeting and approach-motion completion produce robot references, while a shared policy uses contact and object geometry to control the body and fingers across multiple objects.},
+  year={2026},
+  journal={arXiv preprint},
+  website={https://xiaohu-art.github.io/Weave/},
+  arxiv={2609.16683},
+  pdf={https://xiaohu-art.github.io/Weave/Weave.pdf},
+  code={https://github.com/xiaohu-art/Weave},
+  preview={weave.jpg}
+}
+
+@article{wang2026univlat,
+  selected={true},
+  summary={Adapting pretrained VLA policies with whole-body touch for contact-rich humanoid tasks.},
+  title={Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation},
+  author={Wang*, Zihao and Liu*, Shutong and Zheng, Siqi and Cao, Liu and Chen, Ruoqu and Liu, Rundong and Yang, Yanchao and Xu†, Mengdi},
+  annotation={* Equal contribution. † Corresponding author.},
+  abstract={Uni-VLaT adds distributed whole-body touch to pretrained vision-language-action policies. Its tactile features support action generation and predict future tactile, proprioceptive, and visual representations, improving contact-rich humanoid control across five real-robot tasks with a 75% average success rate.},
+  year={2026},
+  journal={arXiv preprint},
+  website={https://ggkiller-air.github.io/Uni-VLaT/},
+  arxiv={2609.35450},
+  preview={univlat.webp}
+}
+
 @inproceedings{chen2026dexx,
   selected={true},
+  summary={Learning visual-tactile dexterous manipulation from human videos through simulated interaction.},
+  venue_short={CoRL},
   title={Dex-X: Learning Visual-Tactile Dexterous Manipulation From Human Videos with Simulated Interaction},
   author={Chen, Ruoqu and Ruan, Feixiang and Cao, Liu and Wang, Zihao and Xu, Botian and Tong, Shiqin and Liu, Jiajun and Pei, Mingzhi and Zhang, Chenyu and Xing, Wanli and Zhang, Kaifeng and Xu†, Mengdi},
   abstract={A framework that learns visual-tactile dexterous manipulation skills from human videos by leveraging simulated interaction, bridging the gap between passive human demonstrations and executable robot policies.},
@@ -18,6 +49,8 @@
 
 @inproceedings{chen2024ultradp,
   selected={true},
+  summary={Generalizing autonomous ultrasound scanning with a force-aware diffusion policy.},
+  venue_short={IROS},
   title={UltraDP: Generalizable Carotid Ultrasound Scanning with Force-Aware Diffusion Policy},
   author={Chen, Ruoqu and Yan, Xiangjie and Lv, Kangchen and Huang, Gao and Li, Zheng and Li†, Xiang},
   abstract={Present UltraDP, a Diffusion-Policy-based method that receives multi-sensory inputs (ultrasound images, wrist camera image, contact wrench, and probe pose) and generates actions that are fit for multi-modal action distributions in autonomous ultrasound scanning. UltraDP achieves a 95% success rate in transverse scanning on previously unseen subjects, demonstrating its effectiveness.},
@@ -30,6 +63,7 @@
 
 @article{cao2026humit,
   selected={true},
+  summary={Enabling responsive whole-body humanoid teleoperation from sparse human keypoints.},
   title={HuMiT: Low-Latency Whole-Body Humanoid Teleoperation via Minimal Reference Tracking},
   author={Cao, Liu and Xu, Botian and Chen, Ruoqu and Liu, Jiajun and Pei, Mingzhi and Wang, Zihao and Li, Zhongyu and Xu†, Mengdi},
   abstract={HuMiT is a whole-body teleoperation system that drives a humanoid from sparse human keypoints alone, achieving ~20 ms communication-to-inference latency to enable reactive whole-body skills such as ball catching and loco-manipulation.},
@@ -51,7 +85,6 @@
 }
 
 @article{wang2026r2seval,
-  selected={true},
   title={R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models},
   author={Wang, Yidi and Ruan, Feixiang and Chen, Ruoqu and Yin, Jie and Yu, Yang and Xu, Mengdi and Zhang†, Kaifeng},
   abstract={An evaluation pipeline that pairs real-to-sim calibration with a vision-language model evaluator: calibrated simulator rollouts replace repeated hardware trials, and pairwise VLM preferences are aggregated into policy rankings, enabling automated, statistically stable, and quality-aware evaluation of robot behavior.},
@@ -74,6 +107,8 @@
 
 @inproceedings{chen2024wbmpc,
   selected={true},
+  summary={Coordinating mobile manipulation tasks through smooth priority transitions in whole-body control.},
+  venue_short={ICRA},
   title={Whole-Body Model Predictive Control for Mobile Manipulation with Task Priority Transition},
   author={Wang, Yushi and Chen, Ruoqu and Zhao†, Mingguo},
   abstract={Developed a Whole-Body Model Predictive Control (WBMPC) framework to manage task priorities and scheduling in multi-task mobile manipulation scenarios. Integrated task priorities into a unified weight matrix, enabling smooth transitions across tasks in both spatial and temporal dimensions.},

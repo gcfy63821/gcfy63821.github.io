@@ -49,6 +49,9 @@
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
+    {% if page.layout == 'about' and entry.summary %}
+      <p class="publication-summary">{{ entry.summary }}</p>
+    {% endif %}
     <!-- Author -->
     <div class="author">
       {% assign author_array_size = entry.author_array | size %}
@@ -179,7 +182,11 @@
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
-      {{ periodical | strip }}
+      {% if entry.venue_short %}
+        <em>{{ entry.venue_short }}</em> {{ entry.year }}
+      {% else %}
+        {{ periodical | strip }}
+      {% endif %}
     </div>
     <div class="periodical">
       {{ entry.note | strip }}

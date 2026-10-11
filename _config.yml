@@ -313,9 +313,11 @@ filtered_bibtex_keywords:
     poster,
     preview,
     selected,
+    summary,
     slides,
     supp,
     video,
+    venue_short,
     website,
   ]
 

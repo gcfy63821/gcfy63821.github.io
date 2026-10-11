@@ -1,0 +1,13 @@
+- title: Dexterous Manipulation & Tactile Learning
+  id: manipulation
+  papers:
+    - chen2026dexx
+    - wang2026univlat
+    - chen2024ultradp
+
+- title: Whole-Body Control & Loco-Manipulation
+  id: whole-body
+  papers:
+    - cao2026weave
+    - cao2026humit
+    - chen2024wbmpc
