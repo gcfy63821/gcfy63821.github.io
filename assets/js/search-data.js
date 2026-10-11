@@ -44,6 +44,9 @@ ninja.data = [{
           section: "News",},{id: "news-dex-x-is-accepted-to-corl-2026-check-out-the-paper-and-the-project-page",
           title: 'Dex-X is accepted to CoRL 2026! Check out the paper and the project...',
           description: "",
+          section: "News",},{id: "news-catok-is-accepted-to-neurips-2026-as-a-poster-check-out-the-project-page",
+          title: 'CATok is accepted to NeurIPS 2026 as a Poster! Check out the project...',
+          description: "",
           section: "News",},{id: "projects-path-planning-visualization-tool-with-franka-robot-controller",
           title: 'Path Planning Visualization Tool with Franka Robot Controller',
           description: "A path planning visualization tool with state-of-the-art planning algorithms for robot arm planning, with companion Franka joint position/impedance controller for receiving trajectories.",
@@ -67,6 +70,20 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/gcfy63821", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=s3gyX7wAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/RuoquC6276", "_blank");
         },
       },{
       id: 'light-theme',
