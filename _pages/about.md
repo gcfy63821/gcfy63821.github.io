@@ -28,7 +28,7 @@ latest_posts:
 I am a first-year Ph.D. student at the Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University, advised by Prof. [Mengdi Xu](https://www.mengdixu.me/). My research interests lie in dexterous manipulation and robot interaction. I received my bachelor's degree from the Department of Automation at Tsinghua University, where I was fortunate to be advised by Prof. [Xiang Li](https://sites.google.com/view/homepageoflixiang/home) and Prof. [Mingguo Zhao](https://www.au.tsinghua.edu.cn/info/1081/3199.htm), and I joined the Stanford Vision and Learning Lab (SVL) as a summer research intern in 2025.
 
 <details class="mb-4">
-  <summary class="h5" style="cursor: pointer;">Open to Collaboration</summary>
+  <summary style="cursor: pointer; font-size: 0.95rem; font-weight: 300; color: #9b59b6;">Open to Collaboration</summary>
   <p>I particularly enjoy hands-on work with robotic systems, from building experimental setups to deploying and evaluating new policies on real hardware.</p>
-  <p class="small">My two years at IRM Lab and RCL helped me build a comprehensive, hands-on foundation in robotics, spanning motion control, planning, perception, and robot learning. I have extensive experience working with diverse robotic platforms, particularly dexterous hands and robotic manipulators, from low-level control and teleoperation to policy training and real-world deployment.</p>
+  <p class="small">My past research experience has helped me build a comprehensive, hands-on foundation in robotics, spanning motion control, planning, perception, and robot learning. I have extensive experience working with diverse robotic platforms, particularly dexterous hands and robotic manipulators, from low-level control and teleoperation to policy training and real-world deployment.</p>
 </details>
