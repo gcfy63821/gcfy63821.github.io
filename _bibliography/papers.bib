@@ -3,6 +3,34 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{chen2026rldexagents,
+  selected={true},
+  summary={Grounding hand motion data into reusable dexterous skill banks that LLM agents can retrieve, compose, and extend.},
+  title={An Extensible Dexterous Skill Toolkit for LLM Agents through Manifold-Guided Skill Grounding},
+  author={Chen, Ruoqu and Liu, Shutong and Ruan, Feixiang and Fu, Weili and Wang, Zihao and Xu†, Mengdi},
+  abstract={Dexterous robots must turn plausible hand poses into stable physical interactions, while language agents need skills they can invoke without generating joint trajectories. RLDexAgents organizes quasi-static hand references in a pose bank and trained, executable policies in a skill bank, connecting motion data to reinforcement-learning teachers, command-conditioned students and an extensible agent toolkit. We analyze approximately 915K human poses, 1.03M Sharpa poses, and 1,400 Wuji2 samples. Representative pose banks improve geometric coverage. We train the final Cluster + phase student with mixed DAgger/PPO and study Joint, Fingertip and Hybrid commands in an interface ablation. On 68 student-held-out tasks, students achieve 50–60% grasp success versus 94% for the teacher; richer commands do not consistently improve retention or target adherence. The toolkit separates high-level skill selection, external wrist control, and 30 Hz tactile hand control. These results establish a working research pipeline while identifying command ambiguity, contact establishment, and teacher–student observation differences as central obstacles to reusable dexterous skills.},
+  year={2026},
+  month={oct},
+  journal={Technical Report},
+  website={https://gcfy63821.github.io/rldexagents/},
+  code={https://github.com/shutongliu-dev/rldexagents-web},
+  preview={rldexagents.svg}
+}
+
+@article{pei2026egohsi3r,
+  selected={true},
+  summary={Reconstructing camera motion, dense scenes, world-space hands, and hand contact from egocentric video in a streaming manner.},
+  title={EgoHSI3R: Online 4D Hand-Scene Interaction Reconstruction from Egocentric Video},
+  author={Pei, Mingzhi and Ye, Zhangchen and Chen, Ruoqu and Cao, Liu and Feng, Yao and Xu, Mengdi},
+  abstract={Egocentric videos offer an abundant source of hand-scene interactions for embodied learning, which requires recovering hands, camera, and scene consistently in a shared 3D world. Existing methods focus on either camera-frame hands or world-space hand trajectories, without jointly recovering the scene. Building a complete reconstruction from such specialized predictions therefore typically requires per-sequence optimization. We propose EgoHSI3R, a unified feed-forward framework for online 4D hand-scene interaction reconstruction from egocentric monocular video. To jointly recover these components, it maintains a recurrent scene representation that accumulates geometric evidence over time and provides a shared world space and scale. We introduce hand-centric prompts that fuse pretrained hand priors and local scene context, while MANO vertex queries attend to scene features to predict dense per-vertex contact. These designs enable a single network to jointly estimate camera motion, dense scene geometry, world-space bilateral MANO hands, and per-vertex hand contact. EgoHSI3R achieves the lowest world-space hand joint error on ARCTIC, while running faster than prior world-space hand pipelines and retaining competitive camera and scene reconstruction quality.},
+  year={2026},
+  month={oct},
+  journal={CoRL 2026 Workshop Scaling H2R (Submission)},
+  website={https://pmz-enterprise.github.io/egohsi3r-page/},
+  preview={egohsi3r.png},
+  keywords={Hand Motion Estimation, Hand-Scene Interaction, Scalable Human Data}
+}
+
 @article{cao2026weave,
   selected={true},
   summary={Learning coordinated whole-body and dexterous hand control from human-object interactions.},

@@ -2,8 +2,10 @@
   id: manipulation
   papers:
     - chen2026dexx
+    - chen2026rldexagents
     - wang2026univlat
     - chen2024ultradp
+    - pei2026egohsi3r
 
 - title: Whole-Body Control & Loco-Manipulation
   id: whole-body
