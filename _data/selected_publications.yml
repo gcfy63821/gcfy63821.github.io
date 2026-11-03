@@ -6,6 +6,13 @@
     - chen2024ultradp
     - pei2026egohsi3r
 
+- title: Robot Interface
+  id: robot-interface
+  papers:
+    - yuan2026unirobotagent
+    - chen2026rldexagents
+    - li2026rose
+
 - title: Whole-Body Control & Loco-Manipulation
   id: whole-body
   papers:
