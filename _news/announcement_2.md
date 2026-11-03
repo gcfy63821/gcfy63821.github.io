@@ -6,3 +6,4 @@ related_posts: false
 ---
 
 Dex-X is accepted to CoRL 2026! Check out the [paper](https://arxiv.org/abs/2609.07747) and the [project page](https://dexx-code.github.io/dexx-code/).
+CATok is accepted to NeurIPS 2026 as a **Poster**! Check out the [project page](https://chenyuzhangx.github.io/CATok/).
